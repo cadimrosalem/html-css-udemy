@@ -16,7 +16,7 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
-    align-content: space-between;
+    align-content: center;
 }
 
 .my-item {
@@ -42,6 +42,18 @@
 
 .order-4 {
     order: 4;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-2 {
+    flex-grow: 2;
+}
+
+.grow-5 {
+    flex-grow: 5;
 }
 
 
